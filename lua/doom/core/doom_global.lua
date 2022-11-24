@@ -315,7 +315,9 @@ doom = {
     end
   end,
 
-  binds = {},
+  binds = {
+    { '<C-f>', ':Telescope find_files<CR>', name = 'Find files' },
+  },
   --- Binds keybinds using a modified nest.nvim syntax.
   ---
   --- Example:
