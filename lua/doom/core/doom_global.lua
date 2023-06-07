@@ -94,7 +94,7 @@ doom = {
   -- false : Shows absolute number lines
   -- true  : Shows relative number lines
   -- @default = true
-  relative_num = true,
+  relative_num = false,
 
   -- h,l, wrap lines
   movement_wrap = true,
